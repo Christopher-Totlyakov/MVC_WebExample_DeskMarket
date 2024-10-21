@@ -9,9 +9,9 @@ You should scaffold Identity and use the default IdentityUser.
 •	Require non-alphanumeric characters: false
 •	Required uppercase letters: false
 
-Database Requirements
+Database Requirements:
 The Database of DeskMarket:
-Product
+Product:
 •	Has Id – a unique integer, Primary Key
 •	Has ProductName – a string with min length 2 and max length 60 (required)
 •	Has Description – string with min length 10 and max length 250 (required)
@@ -27,7 +27,7 @@ o	You are free to use another one)
 •	Has IsDeleted – bool (default value == false)
 •	Has ProductsClients – a collection of type ProductClient
 
-Category
+Category:
 •	Has Id – a unique integer, Primary Key
 •	Has Name – a string with min length 3 and max length 20 (required)
 •	Has Products – a collection of type Product
@@ -35,7 +35,7 @@ ProductClient
 •	Has ProductId – integer, PrimaryKey, foreign key (required)
 •	Has Product – Product
 
-Functionality
+Functionality:
 The functionality of the DeskMarket Platform is a very simple application.
 Users
 Guests can Register, Login and view the HomePage and Index Page. 
